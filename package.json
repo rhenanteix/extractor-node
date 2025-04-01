@@ -1,0 +1,41 @@
+{
+  "name": "@firedevbr/extractor-node",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Teste for Lumi",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn src/server.ts",
+    "start": "node dist/server.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhenanteix/extractor-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rhenanteix/extractor-node/issues"
+  },
+  "homepage": "https://github.com/rhenanteix/extractor-node#readme",
+  "dependencies": {
+    "@nestjs/typeorm": "^11.0.0",
+    "@prisma/client": "^6.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "multer": "^1.4.5-lts.2",
+    "pdf-parse": "^1.1.1",
+    "pg": "^8.14.1",
+    "prisma": "^6.5.0",
+    "sequelize": "^6.37.7",
+    "typeorm": "^0.3.21"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.2"
+  }
+}

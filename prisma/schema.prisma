@@ -1,0 +1,10 @@
+model Invoice {
+  id               String  @id @default(uuid())
+  clientNumber     String
+  referenceMonth   String
+  energyConsumption Int
+  sceeeEnergy      Int
+  compensatedEnergy Int
+  publicLighting   Float
+  createdAt        DateTime @default(now())
+}
